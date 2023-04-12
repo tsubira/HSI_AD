@@ -17,6 +17,8 @@ The repository contains the code for two different AD strategies:
 Both strategies include python scripts (*.py*) and interactive notebooks (*.ipynb*) to create, train and test the models.
 Additional scripts and functions allow the user to prepare the training/test data from the free-download available [**ABU dataset**](http://xudongkang.weebly.com/data-sets.html).
 
+This code has been tested on a Python 3.9.15 environment with all the packages included in the *requirements.txt* file.
+
 ## ViT-MAE model
 ### Instructions
 Download the [**ABU dataset**](http://xudongkang.weebly.com/data-sets.html) and store the *.mat* files inside the *ViT-MAE/data* directory.
@@ -47,6 +49,5 @@ To visualize the results and generate metrics, run the *test_AD_full_HSI.ipynb*.
 - *test_enc_dec.ipynb*. Quick creation and test of dummy encoder and decoder models. For debugging.
 - *HSI_utils.py*. Auxiliar functions to manage the dataset, plot graphs, etc.
 - *losses.py*. Auxiliar functions for computing loss functions during the training of the models.
-
 
 
